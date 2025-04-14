@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "Rwr7XK+rKy3e0Fcu+RrJaNkGsYv2ZVKQxZpUUbS6rAw=",
+  "Hash": "CoVS49OiOEgwDlNscRQkBgl5P5m8t185i42xDgBIOZ8=",
   "Source": "CodeHunt.API",
   "BasePath": "_content/CodeHunt.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

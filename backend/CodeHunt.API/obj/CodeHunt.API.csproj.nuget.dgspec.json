@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodeHunt\\CodeHunt\\backend\\CodeHunt.api\\CodeHunt.API.csproj": {}
+    "D:\\CodeHunt2\\CodeHunt\\backend\\CodeHunt.API\\CodeHunt.API.csproj": {}
   },
   "projects": {
-    "D:\\CodeHunt\\CodeHunt\\backend\\CodeHunt.api\\CodeHunt.API.csproj": {
+    "D:\\CodeHunt2\\CodeHunt\\backend\\CodeHunt.API\\CodeHunt.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeHunt\\CodeHunt\\backend\\CodeHunt.api\\CodeHunt.API.csproj",
+        "projectUniqueName": "D:\\CodeHunt2\\CodeHunt\\backend\\CodeHunt.API\\CodeHunt.API.csproj",
         "projectName": "CodeHunt.API",
-        "projectPath": "D:\\CodeHunt\\CodeHunt\\backend\\CodeHunt.api\\CodeHunt.API.csproj",
-        "packagesPath": "C:\\Users\\administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeHunt\\CodeHunt\\backend\\CodeHunt.api\\obj\\",
+        "projectPath": "D:\\CodeHunt2\\CodeHunt\\backend\\CodeHunt.API\\CodeHunt.API.csproj",
+        "packagesPath": "C:\\Users\\V3K4R1CH\\.nuget\\packages\\",
+        "outputPath": "D:\\CodeHunt2\\CodeHunt\\backend\\CodeHunt.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\V3K4R1CH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,8 +39,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -73,6 +74,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.16, 7.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -81,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
